@@ -1,4 +1,4 @@
-import 'package:untitled/page/moive/movie_entity.dart';
+import 'package:untitled/page/movie/movie_entity.dart';
 
 movieEntityFromJson(MovieEntity data, Map<String, dynamic> json) {
 	if (json['subjects'] != null) {

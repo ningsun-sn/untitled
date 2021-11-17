@@ -1,4 +1,4 @@
-import 'package:untitled/entiey/we_chat_author_entity.dart';
+import 'package:untitled/entity/we_chat_author_entity.dart';
 
 weChatAuthorEntityFromJson(WeChatAuthorEntity data, Map<String, dynamic> json) {
 	if (json['children'] != null) {

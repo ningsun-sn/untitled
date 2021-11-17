@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/entiey/article_entity.dart';
+import 'package:untitled/entity/article_entity.dart';
 import 'package:untitled/manager/api_manager.dart';
-import 'package:untitled/wiget/item_wechat_article.dart';
+import 'package:untitled/widget/item_wechat_article.dart';
 
 /// 微信文章列表页
 class WechatArticleListPage extends StatefulWidget {

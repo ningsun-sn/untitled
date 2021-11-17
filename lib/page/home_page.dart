@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/page/moive/movie_list.dart';
+import 'package:untitled/page/movie/movie_list.dart';
 import 'package:untitled/page/wechat/wechat_authors_page.dart';
 
 import 'main/all_application_page.dart';

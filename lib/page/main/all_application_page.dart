@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/utils/Constants.dart';
+import 'package:untitled/utils/color_utils.dart';
+import 'package:untitled/utils/widget_utils.dart';
 
-import 'Gase2048Page.dart';
+import 'game_2048_page.dart';
 
 class AllApplicationPage extends StatefulWidget {
   @override
@@ -91,7 +92,7 @@ class AllApplicationState extends State {
               children: <Widget>[
                 Icon(
                   _list[index].iconData,
-                  color: Constants.getRandomColor(),
+                  color: ColorUtils.getRandomColor(),
                 ),
                 Container(
                   margin: const EdgeInsets.only(top: 8.0),
@@ -119,7 +120,7 @@ class AllApplicationState extends State {
       // } else if (index == 3) {
       //   return SampleApp();
       // } else {
-        return Gase2048Page();
+        return Game2048Page();
       // }
     }));
   }

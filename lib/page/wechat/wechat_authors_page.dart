@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/entiey/we_chat_author_entity.dart';
+import 'package:untitled/entity/we_chat_author_entity.dart';
 import 'package:untitled/manager/api_manager.dart';
 import 'package:untitled/page/wechat/wechat_article_list_page.dart';
-import 'package:untitled/wiget/base_widget.dart';
+import 'package:untitled/widget/base_widget.dart';
 
 class WeChatAuthorsPage extends StatefulWidget {
   @override
@@ -34,7 +34,6 @@ class WeChatAuthorsState extends State<WeChatAuthorsPage> with TickerProviderSta
       }, _getWeChatCount(),
     );
   }
-
 
   Widget _createListView(AsyncSnapshot snapshot) {
     list = snapshot.data;

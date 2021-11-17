@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/entiey/article_entity.dart';
+import 'package:untitled/entity/article_entity.dart';
 import 'package:untitled/page/wechat/webview_page.dart';
 
 /// 微信文章列表条目

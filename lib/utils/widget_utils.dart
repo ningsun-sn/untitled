@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:untitled/utils/color_utils.dart';
 
  class Constants {
   static Text titleStyle(String content) {
@@ -11,12 +12,6 @@ import 'package:flutter/services.dart';
     );
   }
 
-//  static Color gradientColor(){
-//    return ColorTween(
-//       begin:Colors.blue,
-//       end: Colors.blueAccent,
-//     ).animate(new CurvedAnimation(parent: AnimationController(), curve: Interval(0, 1))).value;
-//  }
   static AppBar getAppBar(String appBarTitle) {
     return AppBar(
       title: Text(appBarTitle),
@@ -83,21 +78,9 @@ import 'package:flutter/services.dart';
   static Widget getGrayText(String text,[double size = 10]) {
     return Text(
       text,
-      style: TextStyle(fontSize: size, color: Constants.grayText,),
+      style: TextStyle(fontSize: size, color: ColorUtils.grayText,),
     );
   }
 
-  static getRandomColor() {
-    return Color.fromARGB(255, Random.secure().nextInt(255),
-        Random.secure().nextInt(255), Random.secure().nextInt(255));
-  }
 
-  static const Color blue = Color(0xff212121);
-  static const Color primaryText = Color(0xff212121);
-  static const Color blackText = Color(0xff333333);
-  static const Color grayText = Color(0xff999999);
-  static const Color grayBackground = Color(0xffEDEDED);
-  static const Color grayDeepBackground = Color(0xffDEDEDE);
-  static const Color dividerColor = Color(0xffBDBDBD);
-  static const Color transparentGaryColor = Color(33333333);
 }

@@ -1,4 +1,4 @@
-import 'package:untitled/entiey/article_entity.dart';
+import 'package:untitled/entity/article_entity.dart';
 
 articleEntityFromJson(ArticleEntity data, Map<String, dynamic> json) {
 	if (json['alreadyInHomePage'] != null) {

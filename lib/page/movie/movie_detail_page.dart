@@ -1,9 +1,8 @@
-import 'dart:async';
 import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:untitled/entiey/movie_detail_bean.dart';
+import 'package:untitled/entity/movie_detail_bean.dart';
 
 import 'movie_entity.dart';
 class MovieDetailPage extends StatefulWidget {

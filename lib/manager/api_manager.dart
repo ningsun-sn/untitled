@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:dio/adapter.dart';
-import 'package:untitled/entiey/article_entity.dart';
-import 'package:untitled/entiey/base_json_entity.dart';
-import 'package:untitled/entiey/base_list_entity.dart';
-import 'package:untitled/entiey/we_chat_author_entity.dart';
+import 'package:untitled/entity/article_entity.dart';
+import 'package:untitled/entity/base_json_entity.dart';
+import 'package:untitled/entity/base_list_entity.dart';
+import 'package:untitled/entity/we_chat_author_entity.dart';
 
 class ApiManager {
   Dio? _dio;

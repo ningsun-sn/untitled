@@ -1,4 +1,4 @@
-import 'package:untitled/entiey/base_list_entity.dart';
+import 'package:untitled/entity/base_list_entity.dart';
 
 baseListEntityFromJson(BaseListEntity data, Map<String, dynamic> json) {
 	if (json['curPage'] != null) {
