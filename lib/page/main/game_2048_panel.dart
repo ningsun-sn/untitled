@@ -392,7 +392,7 @@ class Game2048PanelState extends State<Game2048Panel> {
               physics: const NeverScrollableScrollPhysics(),
 
               /// 禁用 GridView 的滑动
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: SIZE,
                 childAspectRatio: 1,
                 mainAxisSpacing: 10,

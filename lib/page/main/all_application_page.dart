@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/utils/color_utils.dart';
-import 'package:untitled/utils/widget_utils.dart';
 
 import 'game_2048_page.dart';
+import 'map_location_page.dart';
 
 class AllApplicationPage extends StatefulWidget {
   @override
@@ -111,17 +111,17 @@ class AllApplicationState extends State {
   // 跳转页面
   navigateToMovieDetailPage(int index) {
     Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-      // if (index == 0) {
-      //   return GroupChatPage();
-      // } else if (index == 1) {
-      //   return LoginPage();
+      if (index == 0) {
+        return Game2048Page();
+      } else if (index == 1) {
+        return const MapLocationPage();
       // } else if (index == 2) {
       //   return MovieList();
       // } else if (index == 3) {
       //   return SampleApp();
-      // } else {
+      } else {
         return Game2048Page();
-      // }
+      }
     }));
   }
 
