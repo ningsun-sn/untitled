@@ -115,15 +115,14 @@ class HomePageState extends State<HomePage>{
   Future<bool> requestLocationPermission() async {
     //获取当前的权限
     var status = await Permission.location.status;
-    if (status == PermissionStatus.granted) {
+    if (status.isGranted) {
       //已经授权
       return true;
     } else {
       //未授权则发起一次申请
-
       status = await Permission.location.request();
       print("status$status");
-      if (status == PermissionStatus.granted) {
+      if (status.isGranted) {
         return true;
       } else {
         return false;

@@ -53,11 +53,12 @@ dev_dependencies:
   #https://pub.flutter-io.cn/packages/shared_preferences
   shared_preferences: ^2.0.9
   #https://pub.flutter-io.cn/packages/permission_handler
-  permission_handler: ^6.0.0
+  permission_handler: ^8.3.0
   #https://pub.flutter-io.cn/packages/amap_flutter_location
   amap_flutter_location: ^3.0.0
   #https://pub.flutter-io.cn/packages/amap_flutter_map
   amap_flutter_map: ^3.0.0
+  flutter_sound: ^8.4.2
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

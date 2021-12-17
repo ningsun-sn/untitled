@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/page/main/group_chat_page.dart';
 import 'package:untitled/utils/color_utils.dart';
 
 import 'game_2048_page.dart';
@@ -38,6 +39,7 @@ class AllApplicationState extends State {
             GridView.custom(
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 4,
+                  childAspectRatio: 1,
                   mainAxisSpacing: 2.0,
                   crossAxisSpacing: 2.0,
                 ),
@@ -112,7 +114,7 @@ class AllApplicationState extends State {
   navigateToMovieDetailPage(int index) {
     Navigator.of(context).push(MaterialPageRoute(builder: (context) {
       if (index == 0) {
-        return Game2048Page();
+        return GroupChatPage();
       } else if (index == 1) {
         return const MapLocationPage();
       // } else if (index == 2) {
